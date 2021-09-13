@@ -1,0 +1,116 @@
+@import "../../../assets/scss/variables.scss";
+
+.footer-main{
+    background-image: url(../../../assets/images/footer-bg.png);
+    background-size: cover;
+    background-position: bottom center;
+    .top-ftr{
+        max-width: 968px;
+        margin: 0 auto;
+        padding: 45px 0 80px;
+        @media(max-width: 767px){
+            padding: 30px 0;
+        }
+        .footer-list{
+            h5{
+                font-size: 14px;
+                font-family: $font-family-bold;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+            nav{
+                li{
+                    padding: 15px 0;
+                    a{
+                        color: $light;
+                        text-decoration: none;
+                        cursor: pointer;
+                        &:hover{
+                            color: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ftr-social{
+            max-width: 220px;
+            margin-left: auto;
+            @media(max-width: 767px){
+                max-width: 100%;
+            }
+        h5{
+            font-size: 14px;
+            font-family: $font-family-bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        } 
+        nav{
+            display: flex;
+            li{
+                padding: 15px 0;
+                width: auto;
+                margin-right: 40px;
+                a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                    svg{
+                        width: 20px;
+                        height: 20px;                        
+                    }
+                    
+                }
+            }
+        }
+    }
+    .ftr-p2 {
+        border-top: 1px solid #333333;
+        padding: 12px 0;  
+        .ftr-p2-block{
+            max-width: 968px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media(max-width: 767px){
+                display: block;
+                .f2-logo{
+                    margin-bottom: 25px;
+                }
+            }
+            a{
+                font-size: 14px;
+                font-family: $font-family-bold;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: $white;
+                text-decoration: none;
+                cursor: pointer;
+                margin-left: 50px;
+                @media(max-width: 767px){
+                    display: block;
+                    margin: 0;
+                    padding: 10px 0;
+                }
+                @media(min-width: 768px) and (max-width: 1024px){
+                    margin-left: 10px;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                }
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+        }      
+        
+    }
+    .copyright {
+        text-align: center;
+        color: $light;
+        font-size: 14px;
+        padding: 30px 0;
+    }
+}
