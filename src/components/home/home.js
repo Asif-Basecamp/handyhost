@@ -290,7 +290,7 @@ class HomeView extends Component {
                                 <div className="download-option">
                                     <Typography varian="h6">Download a HandyHost For Computer</Typography>
                                     <List component="nav">
-                                        <ListItem>
+                                        {/* <ListItem>
                                             <Link >
                                                 <span>
                                                     <svg className="icon" viewBox="0 0 56.693 56.693">
@@ -299,7 +299,7 @@ class HomeView extends Component {
                                                 </span>
                                                 <span>Widnows</span>
                                             </Link>
-                                        </ListItem>
+                                        </ListItem> */}
                                         <ListItem>
                                             <Link >
                                                 <span>
@@ -322,7 +322,7 @@ class HomeView extends Component {
                                         </ListItem>
                                     </List>
                                 </div>
-                                <div className="download-option">
+                                {/* <div className="download-option">
                                     <Typography varian="h6">Download a HandyHost For Mobile</Typography>
                                     <List component="nav">
                                         <ListItem>
@@ -346,7 +346,7 @@ class HomeView extends Component {
                                             </Link>
                                         </ListItem>
                                     </List>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

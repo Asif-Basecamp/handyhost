@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Navbar.scss';
 import Link from '@material-ui/core/Link';
 
-import Logo from '../../../assets/images/logo.png';
+import Logo from '../../../assets/images/logo.svg';
 
 class LeftMenu extends Component { 
   state = { isActive: true };

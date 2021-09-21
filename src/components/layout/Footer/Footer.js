@@ -6,7 +6,7 @@ import Link from '@material-ui/core/Link';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
-import Flogo from '../../../assets/images/f-logo.png';
+import Flogo from '../../../assets/images/logo.svg';
 
 class Footer extends Component {
   render() {
@@ -96,15 +96,10 @@ class Footer extends Component {
                 <div className="f2-logo">
                   <img alt="" src={Flogo} />
                 </div>
-                <div className="f2-menu">
-                  <Link>PRIVATE POLICY</Link>
-                  <Link>TERMS & CONDITIONS</Link>
-                  <Link>COPYRIGHT NOTIFICATIONS</Link>
+                <div className="copyright">
+                  © 2021 HandyHost. All rights reserved.
                 </div>
               </div>
-            </div>
-            <div className="copyright">
-              © 2021 HandyHost. All rights reserved.
             </div>
           </div>
         </footer>

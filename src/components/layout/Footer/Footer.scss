@@ -75,6 +75,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            .f2-logo{
+                img{
+                    width: 80px;
+                }
+            }
             @media(max-width: 767px){
                 display: block;
                 .f2-logo{
