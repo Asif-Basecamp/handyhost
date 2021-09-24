@@ -336,7 +336,8 @@
         max-width: 936px;
         margin: 0 auto;
         @media(max-width: 767px){
-            display: block;
+            display: grid;
+            grid-template-columns: auto auto;
         }
         .sbox-grid {
             flex-basis: 33.33%;
@@ -349,7 +350,8 @@
             }
             @media(max-width: 767px){
                 border: 1px solid #222 !important;
-                margin-bottom: 10px;
+                margin-bottom: 0;
+                height: 100%;
             }
             &:nth-child(3),
             &:nth-child(6){
