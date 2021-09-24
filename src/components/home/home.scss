@@ -353,6 +353,9 @@
                 margin-bottom: 0;
                 height: 100%;
             }
+            @media(max-width: 567px){
+                padding: 20px 15px;
+            }
             &:nth-child(3),
             &:nth-child(6){
                 border-right: 0;
