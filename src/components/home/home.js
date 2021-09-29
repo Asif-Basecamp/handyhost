@@ -187,7 +187,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#insta-connect"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Instant Connect</Typography>
+                                    <Typography variant="h5">Quick Setup</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -203,7 +203,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#less-more"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Less is More</Typography>
+                                    <Typography variant="h5">Real-time Earnings</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -219,7 +219,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#high-efficiency"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">High Efficiency</Typography>
+                                    <Typography variant="h5">Energy Efficient</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -235,7 +235,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#refresh"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Open Protocol</Typography>
+                                    <Typography variant="h5">Open Protocols</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -251,7 +251,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#moon"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Less is More</Typography>
+                                    <Typography variant="h5">Night-Mode</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -267,7 +267,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#detailed-statistics"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Detailed Statistics</Typography>
+                                    <Typography variant="h5">Historical Statistics</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -286,9 +286,9 @@ class HomeView extends Component {
                                 <img alt="handy host" src={laptop} />
                             </div>
                             <div className="ds-content" data-aos="fade-left">
-                                <Typography variant="h4">Download the HandyHost on your device today</Typography>
+                                <Typography variant="h4">Download HandyHost on Mac or Linux</Typography>
                                 <div className="download-option">
-                                    <Typography varian="h6">Download a HandyHost For Computer</Typography>
+                                    <Typography varian="h6">Download Installer</Typography>
                                     <List component="nav">
                                         {/* <ListItem>
                                             <Link >
