@@ -18,38 +18,38 @@ class Footer extends Component {
               <Grid container spacing={5}>
                 <Grid item xs={12} sm={3}>
                   <div className="footer-list">
-                    <Typography variant="h5">Company</Typography>
+                    <Typography variant="h5">HandyOSS Reference Software</Typography>
                     <List component="nav">
                       <ListItem>
-                        <Link>Press Releases</Link>
+                        <Link><use xlinkHref="#pinterest">HandyHost</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Mission</Link>
+                      <Link><use xlinkHref="#pinterest">HandyBrowser</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Strategy</Link>
+                      <Link><use xlinkHref="#pinterest">HandyMiner GUI</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Works</Link>
+                      <Link><use xlinkHref="#pinterest">HandyStratum</use></Link>
                       </ListItem>
                     </List>
                   </div>
                 </Grid>
                 <Grid item xs={12} sm={3}>
                   <div className="footer-list">
-                    <Typography variant="h5">Learn More</Typography>
+                    <Typography variant="h5">Dweb Resources</Typography>
                     <List component="nav">
                       <ListItem>
-                        <Link>Support</Link>
+                      <Link><use xlinkHref="#pinterest">LearnHNS</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Customer Service</Link>
+                      <Link><use xlinkHref="#pinterest">The Shake</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Developers</Link>
+                      <Link><use xlinkHref="#pinterest">Namebase Learn</use></Link>
                       </ListItem>
                       <ListItem>
-                        <Link>Ger Started Guide</Link>
+                      <Link><use xlinkHref="#pinterest">SkyInclude</use></Link>
                       </ListItem>
                     </List>
                   </div>
@@ -69,20 +69,6 @@ class Footer extends Component {
                         <Link>
                           <svg className="icon" viewBox="0 0 95.308 72.592">
                             <use xlinkHref="#twitter"></use>
-                          </svg>
-                        </Link>
-                      </ListItem>
-                      <ListItem>
-                        <Link>
-                          <svg className="icon" viewBox="0 0 88.977 80.023">
-                            <use xlinkHref="#linkdin"></use>
-                          </svg>
-                        </Link>
-                      </ListItem>
-                      <ListItem>
-                        <Link>
-                          <svg className="icon" viewBox="0 0 57.307 73.699">
-                            <use xlinkHref="#pinterest"></use>
                           </svg>
                         </Link>
                       </ListItem>

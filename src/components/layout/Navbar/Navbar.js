@@ -29,16 +29,10 @@ class LeftMenu extends Component {
               </Link>
               <div className={isActive ? "header-menu dn-mob" : "header-menu"}>
                 <Link  className="menu-item">
-                  ABOUT
-                </Link>
-                <Link  className="menu-item">
-                PLATFORM
-                </Link>
-                <Link  className="menu-item">
-                MINING
+                  HandyOSS Twitter
                 </Link>
                 <Link  className="demo-item" >
-                  Request a demo
+                  STAR US ON GITHUB
                 </Link>
               </div>
             </nav>
