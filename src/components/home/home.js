@@ -353,7 +353,7 @@ class HomeView extends Component {
                 </section>
                 <section className="partner-section">
                     <div className="container" data-aos="fade-up">
-                        <Typography variant="h4">Partner Networks </Typography>
+                        <Typography variant="h4">Handyhost sponsors </Typography>
                         <List component="nav">
                             <ListItem>
                                 <img alt="handyhost" src={client1} />
