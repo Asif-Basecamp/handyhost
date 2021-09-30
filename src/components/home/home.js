@@ -17,8 +17,7 @@ import vision3 from '../../assets/images/vs3.png';
 import laptop from '../../assets/images/laptop.png';
 import client1 from '../../assets/images/Sentinellogo_icon.svg';
 import client2 from '../../assets/images/Sia-Logo.svg';
-import client3 from '../../assets/images/Akash-logo.svg';
-import client4 from '../../assets/images/Greg-Osuri.svg';
+import client3 from '../../assets/images/Akash_GregOsur.svg';
 
 class HomeView extends Component {
     render() {
@@ -362,10 +361,6 @@ class HomeView extends Component {
                             </ListItem>
                             <ListItem>
                                 <img alt="handyhost" src={client3} />
-                                <div className="greg-osuri-sponsors web-greg-osuri-sponsors"><img alt="handyhost" src={client4} /></div>
-                            </ListItem>
-                            <ListItem className="mobile-greg-osuri-sponsors">
-                                <div className="greg-osuri-sponsors"><img alt="handyhost" src={client4} /></div>
                             </ListItem>
                         </List>
                     </div>
