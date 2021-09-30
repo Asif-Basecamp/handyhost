@@ -50,14 +50,14 @@ class HomeView extends Component {
                     <div className="container">
                         <div className="top-section-content text-center" >
                             <Typography variant="h3" gutterBottom data-aos="zoom-in">
-                                <span>The Future</span> of <span>DWeb Mining</span><br /> and <span>Staking</span> is Here
+                                <span>The Future</span> of <span>DWeb</span><br /> Protocol <span>Management</span> is Here
                             </Typography>
                             <div className="ts-action">
                                 <Link data-aos="fade-right" className="learnmore">
-                                    LEARN MORE
+                                <use xlinkHref="http://github.com">DOWNLOAD NOW</use>
                                 </Link>
                                 <Link data-aos="fade-left" className="reqdemo">
-                                    REQUEST A DEMO
+                                <use xlinkHref="http://github.com">VIEW THE REPO</use>
                                 </Link>
                             </div>
                             <div className="ts-brands" data-aos="zoom-in">
@@ -94,17 +94,17 @@ class HomeView extends Component {
                                 <Grid item xs={12} sm={5}>
                                     <div className="vs-content" data-aos="fade-right">
                                         <Typography variant="h4">
-                                            Video Section
+                                            HandyHost Demo Video
                                         </Typography>
                                         <Typography variant="body1" gutterBottom>
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock
+                                            HandyHost is a seamless, browser-first way to manage dweb protocols and assets on the fly from your desktop or mobile web browser from your home network for Siacoin/DVPN/Akash. And it bundles a Handshake resolver, too, allowing for quick access to browsing the metaverse.
                                         </Typography>
                                         <div className="ts-action">
                                             <Link data-aos="fade-right" className="learnmore">
-                                                LEARN MORE
+                                                DOWNLOAD NOW
                                             </Link>
                                             <Link data-aos="fade-left" className="reqdemo">
-                                                REQUEST A DEMO
+                                                FORK THE REPO
                                             </Link>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@ class HomeView extends Component {
                             <div className="vs-icon">
                                 <img alt="handy host" src={visionIcon} />
                             </div>
-                            <Typography variant="h3">Our vision</Typography>
+                            <Typography variant="h3">Handshake as the Root</Typography>
                             <Typography variant="body1">
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                             </Typography>
@@ -187,7 +187,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#insta-connect"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Instant Connect</Typography>
+                                    <Typography variant="h5">Quick Setup</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -203,7 +203,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#less-more"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Less is More</Typography>
+                                    <Typography variant="h5">Real-time Earnings</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -219,7 +219,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#high-efficiency"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">High Efficiency</Typography>
+                                    <Typography variant="h5">Energy Efficient</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -235,7 +235,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#refresh"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Open Protocol</Typography>
+                                    <Typography variant="h5">Open Protocols</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -251,7 +251,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#moon"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Less is More</Typography>
+                                    <Typography variant="h5">Night-Mode</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -267,7 +267,7 @@ class HomeView extends Component {
                                             <use xlinkHref="#detailed-statistics"></use>
                                         </svg>
                                     </div>
-                                    <Typography variant="h5">Detailed Statistics</Typography>
+                                    <Typography variant="h5">Historical Statistics</Typography>
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
@@ -286,9 +286,9 @@ class HomeView extends Component {
                                 <img alt="handy host" src={laptop} />
                             </div>
                             <div className="ds-content" data-aos="fade-left">
-                                <Typography variant="h4">Download the HandyHost on your device today</Typography>
+                                <Typography variant="h4">Download HandyHost on Mac or Linux</Typography>
                                 <div className="download-option">
-                                    <Typography varian="h6">Download a HandyHost For Computer</Typography>
+                                    <Typography varian="h6">Download Installer</Typography>
                                     <List component="nav">
                                         {/* <ListItem>
                                             <Link >
