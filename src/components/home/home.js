@@ -15,11 +15,10 @@ import vision1 from '../../assets/images/vs1.png';
 import vision2 from '../../assets/images/vs2.png';
 import vision3 from '../../assets/images/vs3.png';
 import laptop from '../../assets/images/laptop.png';
-import client1 from '../../assets/images/client1.png';
-import client2 from '../../assets/images/client2.png';
-import client3 from '../../assets/images/client3.png';
-import client4 from '../../assets/images/client4.png';
-import client5 from '../../assets/images/client5.png';
+import client1 from '../../assets/images/Sentinellogo_icon.svg';
+import client2 from '../../assets/images/Sia-Logo.svg';
+import client3 from '../../assets/images/Akash-logo.svg';
+import client4 from '../../assets/images/Greg-Osuri.svg';
 
 class HomeView extends Component {
     render() {
@@ -363,12 +362,7 @@ class HomeView extends Component {
                             </ListItem>
                             <ListItem>
                                 <img alt="handyhost" src={client3} />
-                            </ListItem>
-                            <ListItem>
-                                <img alt="handyhost" src={client4} />
-                            </ListItem>
-                            <ListItem>
-                                <img alt="handyhost" src={client5} />
+                                <div className="greg-osuri-sponsors"><img alt="handyhost" src={client4} /></div>
                             </ListItem>
                         </List>
                     </div>
