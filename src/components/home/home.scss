@@ -569,7 +569,7 @@
         align-items: center;
         @media (max-width: 767px){
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto;
             grid-gap: 15px;
         }
         @media (max-width: 540px){
@@ -591,6 +591,22 @@
                 border-left: 1px solid rgba($border-color-base, 0.4);
                 margin-left: 20px;
                 padding-left: 20px;
+                &.web-greg-osuri-sponsors{
+                    @media(max-width: 767px){
+                        display: none;
+                    }
+                }
+            }
+        }
+        .mobile-greg-osuri-sponsors{
+            display: none;
+            @media(max-width: 767px){
+                display: block;
+                .greg-osuri-sponsors{
+                    padding-left: 0;
+                    margin-left: 0;
+                    border: 0;
+                }
             }
         }
     }

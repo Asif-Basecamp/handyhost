@@ -362,6 +362,9 @@ class HomeView extends Component {
                             </ListItem>
                             <ListItem>
                                 <img alt="handyhost" src={client3} />
+                                <div className="greg-osuri-sponsors web-greg-osuri-sponsors"><img alt="handyhost" src={client4} /></div>
+                            </ListItem>
+                            <ListItem className="mobile-greg-osuri-sponsors">
                                 <div className="greg-osuri-sponsors"><img alt="handyhost" src={client4} /></div>
                             </ListItem>
                         </List>
