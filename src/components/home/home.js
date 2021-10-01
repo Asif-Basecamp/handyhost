@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./home.scss";
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import Particles from 'react-particles-js';
@@ -51,32 +51,32 @@ class HomeView extends Component {
                                 <span>The Future</span> of <span>DWeb</span><br /> Protocol <span>Management</span> is Here
                             </Typography>
                             <div className="ts-action">
-                                <Link data-aos="fade-right" className="learnmore">
-                                <use xlinkHref="http://github.com">DOWNLOAD NOW</use>
+                                <Link data-aos="fade-right" className="learnmore" target="_blank" to={{ pathname: "http://github.co" }}>
+                                    DOWNLOAD NOW
                                 </Link>
-                                <Link data-aos="fade-left" className="reqdemo">
-                                <use xlinkHref="http://github.com">VIEW THE REPO</use>
+                                <Link data-aos="fade-left" className="reqdemo" target="_blank" to={{ pathname: "http://github.com" }}>
+                                    VIEW THE REPO 
                                 </Link>
                             </div>
                             <div className="ts-brands" data-aos="zoom-in">
                                 <List component="nav">
                                     <ListItem>
-                                        <Link >
+                                        <Link to="/">
                                             <img alt="handy host" src={Brand1} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link >
+                                        <Link to="/">
                                             <img alt="handy host" src={Brand2} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link >
+                                        <Link to="/">
                                             <img alt="handy host" src={Brand3} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link >
+                                        <Link to="/">
                                             <img alt="handy host" src={Brand4} />
                                         </Link>
                                     </ListItem>
@@ -98,10 +98,10 @@ class HomeView extends Component {
                                             HandyHost is a seamless, browser-first way to manage dweb protocols and assets on the fly from your desktop or mobile web browser from your home network for Siacoin/DVPN/Akash. And it bundles a Handshake resolver, too, allowing for quick access to browsing the metaverse.
                                         </Typography>
                                         <div className="ts-action">
-                                            <Link data-aos="fade-right" className="learnmore">
+                                            <Link to="/" data-aos="fade-right" className="learnmore">
                                                 DOWNLOAD NOW
                                             </Link>
-                                            <Link data-aos="fade-left" className="reqdemo">
+                                            <Link to="/" data-aos="fade-left" className="reqdemo">
                                                 FORK THE REPO
                                             </Link>
                                         </div>
@@ -137,7 +137,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                             </Typography>
-                                            <Link >Read More</Link>
+                                            <Link to="/">Read More</Link>
                                         </div>
                                     </div>
                                 </Grid>
@@ -149,7 +149,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 The explanation for these different isotopes awaited the discovery of the neutron, an uncharged particle with a mass
                                             </Typography>
-                                            <Link >Read More</Link>
+                                            <Link to="/">Read More</Link>
                                         </div>
                                     </div>
                                 </Grid>
@@ -161,7 +161,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 The explanation for these different isotopes awaited the discovery of the neutron, an uncharged particle with a mass
                                             </Typography>
-                                            <Link >Read More</Link>
+                                            <Link to="/">Read More</Link>
                                         </div>
                                     </div>
                                 </Grid>
@@ -189,7 +189,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -205,7 +205,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -221,7 +221,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -237,7 +237,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -253,7 +253,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -269,7 +269,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
                                     </Typography>
-                                    <Link >
+                                    <Link to="/">
                                         Read More
                                     </Link>
                                 </div>
@@ -299,7 +299,7 @@ class HomeView extends Component {
                                             </Link>
                                         </ListItem> */}
                                         <ListItem>
-                                            <Link >
+                                            <Link to="/">
                                                 <span>
                                                     <svg className="icon" viewBox="0 0 512 512">
                                                         <use xlinkHref="#linux"></use>
@@ -309,7 +309,7 @@ class HomeView extends Component {
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link >
+                                            <Link to="/">
                                                 <span>
                                                     <svg className="icon" viewBox="0 0 512 512">
                                                         <use xlinkHref="#apple"></use>
@@ -354,13 +354,13 @@ class HomeView extends Component {
                         <Typography variant="h4">Handyhost sponsors </Typography>
                         <List component="nav">
                             <ListItem>
-                                <img alt="handyhost" src={client1} />
+                                <Link target="_blank" to={{ pathname: "https://sentinel.co" }}><img alt="handyhost" src={client1} /></Link>
                             </ListItem>
                             <ListItem>
-                                <img alt="handyhost" src={client2} />
+                                <Link target="_blank" to={{ pathname: "https://sia.tech" }}><img alt="handyhost" src={client2} /></Link>
                             </ListItem>
                             <ListItem>
-                                <img alt="handyhost" src={client3} />
+                                <Link target="_blank" to={{ pathname: "https://sentinel.co" }}><img alt="handyhost" src={client3} /></Link>
                             </ListItem>
                         </List>
                     </div>
