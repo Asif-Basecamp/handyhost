@@ -351,7 +351,7 @@ class HomeView extends Component {
                 </section>
                 <section className="partner-section">
                     <div className="container" data-aos="fade-up">
-                        <Typography variant="h4">Handyhost sponsors </Typography>
+                        <Typography variant="h4">Handyhost Sponsors </Typography>
                         <List component="nav">
                             <ListItem>
                                 <Link target="_blank" to={{ pathname: "https://sentinel.co" }}><img alt="handyhost" src={client1} /></Link>

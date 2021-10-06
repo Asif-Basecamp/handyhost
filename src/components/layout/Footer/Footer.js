@@ -83,7 +83,7 @@ class Footer extends Component {
                   <img alt="" src={Flogo} />
                 </div>
                 <div className="copyright">
-                  © 2021 HandyHost. All rights reserved.
+                  © 2021 HandyOSS. All rights reserved.
                 </div>
               </div>
             </div>
