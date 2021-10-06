@@ -49,7 +49,7 @@ class Footer extends Component {
                       <Link><use xlinkHref="#pinterest">Namebase Learn</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">SkyInclude</use></Link>
+                      <Link><use xlinkHref="#pinterest">Handshake.org</use></Link>
                       </ListItem>
                     </List>
                   </div>

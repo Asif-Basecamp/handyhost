@@ -124,18 +124,18 @@ class HomeView extends Component {
                             </div>
                             <Typography variant="h3">Handshake as the Root</Typography>
                             <Typography variant="body1">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        Handshake ($HNS) is the private, decentralized, P2P "root anchor" for Web3/Dweb; serving as a backwards compatible drop-in soft-fork of the existing internet run by ICANN. When combined with other web focused crypto protocols, HNS becomes the heart center for routing of human information and creativity, globally.
                             </Typography>
                         </div>
                         <div className="vs-services">
                             <Grid container spacing={3}>
                                 <Grid item xs={12} sm={4}>
                                     <div className="vs-box" data-aos="fade-right">
-                                        <img alt="handy host" src={vision1} />
+                                        <img alt="handy host" src={vision2} />
                                         <div className="vs-box-content">
-                                            <Typography variant="h5">LESS IS MORE</Typography>
+                                            <Typography variant="h5">Packs a Punch</Typography>
                                             <Typography variant="body1">
-                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                                An all-in-one heavy-hitter combining wallets, light clients, nodes, and rich analytics all in one very powerful management suite.
                                             </Typography>
                                             <Link to="/">Read More</Link>
                                         </div>
@@ -143,11 +143,11 @@ class HomeView extends Component {
                                 </Grid>
                                 <Grid item xs={12} sm={4}>
                                     <div className="vs-box border-box" data-aos="fade-up">
-                                        <img alt="handy host" src={vision2} />
+                                        <img alt="handy host" src={vision3} />
                                         <div className="vs-box-content">
-                                            <Typography variant="h5">High Efficiency</Typography>
+                                            <Typography variant="h5">Best in Market</Typography>
                                             <Typography variant="body1">
-                                                The explanation for these different isotopes awaited the discovery of the neutron, an uncharged particle with a mass
+                                                HandyHost is a first of its kind to merge independent dweb protocols together into one easy to use package. Enterprise level attention to detail, made for you.
                                             </Typography>
                                             <Link to="/">Read More</Link>
                                         </div>
@@ -155,11 +155,11 @@ class HomeView extends Component {
                                 </Grid>
                                 <Grid item xs={12} sm={4}>
                                     <div className="vs-box" data-aos="fade-left">
-                                        <img alt="handy host" src={vision3} />
+                                        <img alt="handy host" src={vision1} />
                                         <div className="vs-box-content">
-                                            <Typography variant="h5">Best in market</Typography>
+                                            <Typography variant="h5">Easy on the Eyes</Typography>
                                             <Typography variant="body1">
-                                                The explanation for these different isotopes awaited the discovery of the neutron, an uncharged particle with a mass
+                                                We made it beautiful, so you'll love nerding out with us on the New Internet while making a passive income. You'll have to see it to believe it.
                                             </Typography>
                                             <Link to="/">Read More</Link>
                                         </div>
@@ -172,9 +172,9 @@ class HomeView extends Component {
                 <section className="services-section">
                     <div className="container">
                         <div className="services-title text-center" data-aos="flip-up">
-                            <Typography variant="h4">what you will get</Typography>
+                            <Typography variant="h4">Show Me What You Got</Typography>
                             <Typography variant="body1">
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                If you've used anything by HandyOSS, you know we think about the tiny details, and try to take substantial steps to provide users and developers a useful suite of options and flexibility worth using and forking. Cross chain user experiences are hard, but we wanted it to be easy for you to experiment with the bleeding edge like the professionals do.
                             </Typography>
                         </div>
                         <div className="sbox-main">
@@ -187,7 +187,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Quick Setup</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                        Supported at launch on MacOS and Linux, HandyHost is quick to setup, and requires only your browser and basic working IT and home networking knowledge.
                                     </Typography>
                                     <Link to="/">
                                         Read More
@@ -203,7 +203,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Real-time Earnings</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                        Watch your money grow while you provide computational resources and redundance to the New Internet alongside rich analytics on your deployments.
                                     </Typography>
                                     <Link to="/">
                                         Read More
@@ -219,7 +219,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Energy Efficient</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                    Access public blockchains with real utility and low-energy footprints and progressively takeover datacenters and cloud computing services.
                                     </Typography>
                                     <Link to="/">
                                         Read More
@@ -235,7 +235,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Open Protocols</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                        Handshake, DVPN, Akash, and Siacoin, all decentralized and open protocols enabling a free web for tomorrow. Borderless, global, this time no one gets left behind.
                                     </Typography>
                                     <Link to="/">
                                         Read More
@@ -251,7 +251,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Night-Mode</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                        Managing your assets can sometimes be a full-time job if you've made it your livelihood. This is for the midnight terminal warriors who care about their corneas.
                                     </Typography>
                                     <Link to="/">
                                         Read More
@@ -267,7 +267,7 @@ class HomeView extends Component {
                                     </div>
                                     <Typography variant="h5">Historical Statistics</Typography>
                                     <Typography variant="body1">
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                                        Seeing is believing, and getting a top-down view of what you're earning, and who's utilizing your system resources will keep you informed and entertained.
                                     </Typography>
                                     <Link to="/">
                                         Read More
