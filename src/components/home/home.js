@@ -51,33 +51,33 @@ class HomeView extends Component {
                                 <span>The Future</span> of <span>DWeb</span><br /> Protocol <span>Management</span> is Here
                             </Typography>
                             <div className="ts-action">
-                                <Link data-aos="fade-right" className="learnmore" target="_blank" to={{ pathname: "http://github.co" }}>
+                                <Link data-aos="fade-right" className="learnmore" target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost/releases" }}>
                                     DOWNLOAD NOW
                                 </Link>
-                                <Link data-aos="fade-left" className="reqdemo" target="_blank" to={{ pathname: "http://github.com" }}>
+                                <Link data-aos="fade-left" className="reqdemo" target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost" }}>
                                     VIEW THE REPO 
                                 </Link>
                             </div>
                             <div className="ts-brands" data-aos="zoom-in">
                                 <List component="nav">
                                     <ListItem>
-                                        <Link to="/">
-                                            <img alt="handy host" src={Brand1} />
+                                        <Link target="_blank" to={{ pathname: "https://sentinel.co" }}>
+                                            <img alt="sentinel" src={Brand1} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link to="/">
-                                            <img alt="handy host" src={Brand2} />
+                                        <Link target="_blank" to={{ pathname: "https://akash.network" }}>
+                                            <img alt="akash" src={Brand2} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link to="/">
-                                            <img alt="handy host" src={Brand3} />
+                                        <Link target="_blank" to={{ pathname: "https://sia.tech" }}>
+                                            <img alt="sia" src={Brand3} />
                                         </Link>
                                     </ListItem>
                                     <ListItem>
-                                        <Link to="/">
-                                            <img alt="handy host" src={Brand4} />
+                                        <Link target="_blank" to={{ pathname: "https://handshake.org" }}>
+                                            <img alt="handyshake" src={Brand4} />
                                         </Link>
                                     </ListItem>
                                 </List>
@@ -98,10 +98,10 @@ class HomeView extends Component {
                                             HandyHost is a seamless, browser-first way to manage dweb protocols and assets on the fly from your desktop or mobile web browser from your home network for Siacoin/DVPN/Akash. And it bundles a Handshake resolver, too, allowing for quick access to browsing the metaverse.
                                         </Typography>
                                         <div className="ts-action">
-                                            <Link to="/" data-aos="fade-right" className="learnmore">
+                                            <Link target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost/releases" }} data-aos="fade-right" className="learnmore">
                                                 DOWNLOAD NOW
                                             </Link>
-                                            <Link to="/" data-aos="fade-left" className="reqdemo">
+                                            <Link target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost" }} data-aos="fade-left" className="reqdemo">
                                                 FORK THE REPO
                                             </Link>
                                         </div>
@@ -109,7 +109,7 @@ class HomeView extends Component {
                                 </Grid>
                                 <Grid item xs={12} sm={7}>
                                     <div className="vs-video" data-aos="fade-left">
-                                        <iframe width="100%" height="370" src="https://www.youtube.com/embed/tInKEMxv_-M?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                                        <iframe width="100%" height="370" src="https://www.youtube.com/embed/kGEScloV70w?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                                     </div>
                                 </Grid>
                             </Grid>
@@ -137,7 +137,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 An all-in-one heavy-hitter combining wallets, light clients, nodes, and rich analytics all in one very powerful management suite.
                                             </Typography>
-                                            <Link to="/">Read More</Link>
+                                            
                                         </div>
                                     </div>
                                 </Grid>
@@ -149,7 +149,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 HandyHost is a first of its kind to merge independent dweb protocols together into one easy to use package. Enterprise level attention to detail, made for you.
                                             </Typography>
-                                            <Link to="/">Read More</Link>
+                                            
                                         </div>
                                     </div>
                                 </Grid>
@@ -161,7 +161,7 @@ class HomeView extends Component {
                                             <Typography variant="body1">
                                                 We made it beautiful, so you'll love nerding out with us on the New Internet while making a passive income. You'll have to see it to believe it.
                                             </Typography>
-                                            <Link to="/">Read More</Link>
+                                            
                                         </div>
                                     </div>
                                 </Grid>
@@ -189,9 +189,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Supported at launch on MacOS and Linux, HandyHost is quick to setup, and requires only your browser and basic working IT and home networking knowledge.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="sbox-grid" data-aos="fade-down">
@@ -205,9 +203,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Watch your money grow while you provide computational resources and redundance to the New Internet alongside rich analytics on your deployments.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="sbox-grid" data-aos="fade-left">
@@ -221,9 +217,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                     Access public blockchains with real utility and low-energy footprints and progressively takeover datacenters and cloud computing services.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="sbox-grid" data-aos="fade-right">
@@ -237,9 +231,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Handshake, DVPN, Akash, and Siacoin, all decentralized and open protocols enabling a free web for tomorrow. Borderless, global, this time no one gets left behind.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="sbox-grid" data-aos="fade-up">
@@ -253,9 +245,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Managing your assets can sometimes be a full-time job if you've made it your livelihood. This is for the midnight terminal warriors who care about their corneas.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                             <div className="sbox-grid" data-aos="fade-left">
@@ -269,9 +259,7 @@ class HomeView extends Component {
                                     <Typography variant="body1">
                                         Seeing is believing, and getting a top-down view of what you're earning, and who's utilizing your system resources will keep you informed and entertained.
                                     </Typography>
-                                    <Link to="/">
-                                        Read More
-                                    </Link>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -299,17 +287,17 @@ class HomeView extends Component {
                                             </Link>
                                         </ListItem> */}
                                         <ListItem>
-                                            <Link to="/">
+                                            <Link target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost/releases" }}>
                                                 <span>
                                                     <svg className="icon" viewBox="0 0 512 512">
-                                                        <use xlinkHref="#linux"></use>
+                                                       /* <use xlinkHref="#linux"></use>*/
                                                     </svg>
                                                 </span>
                                                 <span>Linux</span>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link to="/">
+                                            <Link target="_blank" to={{ pathname: "https://github.com/HandyOSS/HandyHost/releases" }}>
                                                 <span>
                                                     <svg className="icon" viewBox="0 0 512 512">
                                                         <use xlinkHref="#apple"></use>
@@ -360,7 +348,7 @@ class HomeView extends Component {
                                 <Link target="_blank" to={{ pathname: "https://sia.tech" }}><img alt="handyhost" src={client2} /></Link>
                             </ListItem>
                             <ListItem>
-                                <Link target="_blank" to={{ pathname: "https://sentinel.co" }}><img alt="handyhost" src={client3} /></Link>
+                                <Link target="_blank" to={{ pathname: "https://akash.network" }}><img alt="handyhost" src={client3} /></Link>
                             </ListItem>
                         </List>
                     </div>
