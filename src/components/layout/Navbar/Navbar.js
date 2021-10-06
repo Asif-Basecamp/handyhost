@@ -28,10 +28,10 @@ class LeftMenu extends Component {
                 <span className="hline"></span>
               </Link>
               <div className={isActive ? "header-menu dn-mob" : "header-menu"}>
-                <Link  className="menu-item">
+                <Link className="menu-item" target="_blank" href="https://twitter.com/hnsoss">
                   HandyOSS Twitter
                 </Link>
-                <Link  className="demo-item" >
+                <Link  className="demo-item" target="_blank" href="https://github.com/HandyOSS/HandyHost">
                   STAR US ON GITHUB
                 </Link>
               </div>

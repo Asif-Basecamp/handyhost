@@ -7,6 +7,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
 import Flogo from '../../../assets/images/logo.svg';
+import youtube from '../../../assets/images/svg/youtube.svg';
 
 class Footer extends Component {
   render() {
@@ -21,16 +22,16 @@ class Footer extends Component {
                     <Typography variant="h5">HandyOSS Reference Software</Typography>
                     <List component="nav">
                       <ListItem>
-                        <Link><use xlinkHref="#pinterest">HandyHost</use></Link>
+                        <Link href="https://github.com/HandyOSS/HandyHost" target="_blank"><use xlinkHref="#pinterest">HandyHost</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">HandyBrowser</use></Link>
+                      <Link href="https://github.com/HandyOSS/HandyBrowser" target="_blank"><use xlinkHref="#pinterest">HandyBrowser</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">HandyMiner GUI</use></Link>
+                      <Link href="https://github.com/HandyOSS/HandyMiner-Goldshell-GUI" target="_blank"><use xlinkHref="#pinterest">HandyMiner GUI</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">HandyStratum</use></Link>
+                      <Link href="https://github.com/HandyOSS/HandyStratum" target="_blank"><use xlinkHref="#pinterest">HandyStratum</use></Link>
                       </ListItem>
                     </List>
                   </div>
@@ -40,16 +41,16 @@ class Footer extends Component {
                     <Typography variant="h5">Dweb Resources</Typography>
                     <List component="nav">
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">LearnHNS</use></Link>
+                      <Link href="https://learnhns.com/" target="_blank"><use xlinkHref="#pinterest">LearnHNS</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">The Shake</use></Link>
+                      <Link href="https://www.theshake.xyz/" target="_blank"><use xlinkHref="#pinterest">The Shake</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">Namebase Learn</use></Link>
+                      <Link href="https://learn.namebase.io/" target="_blank"><use xlinkHref="#pinterest">Namebase Learn</use></Link>
                       </ListItem>
                       <ListItem>
-                      <Link><use xlinkHref="#pinterest">Handshake.org</use></Link>
+                      <Link href="https://handshake.org/" target="_blank"><use xlinkHref="#pinterest">Handshake.org</use></Link>
                       </ListItem>
                     </List>
                   </div>
@@ -59,14 +60,12 @@ class Footer extends Component {
                     <Typography variant="h5">Follow us</Typography>
                     <List component="nav">
                       <ListItem>
-                        <Link>
-                          <svg className="icon" viewBox="0 0 46.999 96.713">
-                            <use xlinkHref="#facebook"></use>
-                          </svg>
+                        <Link href="https://www.youtube.com/channel/UCo9mpJA4MHAf_iZYHDieADQ" target="_blank">
+                          <img className="icon" style={{width:"30px"}} src={youtube} />
                         </Link>
                       </ListItem>
                       <ListItem>
-                        <Link>
+                        <Link href="https://twitter.com/hnsoss" target="_blank">
                           <svg className="icon" viewBox="0 0 95.308 72.592">
                             <use xlinkHref="#twitter"></use>
                           </svg>
